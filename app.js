@@ -9,95 +9,100 @@
 
 /* ---------- 1. Language ---------- */
 const KM = {
-  'meta.title': 'កូនតោ KONTAO | ខាំមួយមាត់ ពោរពេញក្តីសុខ',
-  'meta.desc': 'នំខេកទន់ៗ ស្នូលក្រែមឆ្ងាញ់ ៥ រសជាតិពីកូនតោ។ ចែករំលែកពេលវេលាផ្អែមល្ហែម ហើយតាមដានយើងនៅលើ Facebook និង Instagram។',
+  'meta.title': 'កូនតោ KONTAO | មួយម៉ាត់តូច ក្ដីសុខធំ',
+  'meta.desc': 'នំខេកទន់ៗ ញាត់ក្រែមឆ្ងាញ់ មាន ៥ រសជាតិពីកូនតោ។ ចែករំលែកគ្រាផ្អែមល្ហែម និងតាមដានយើងលើ Facebook, Instagram និង TikTok។',
 
-  'nav.flavors': 'រសជាតិ',
-  'nav.moments': 'ពេលវេលារីករាយ',
-  'nav.spotlight': 'វីដេអូពិសេស',
-  'nav.hello': 'ទាក់ទងយើង',
+  'nav.flavors': 'ផលិតផល',
+  'nav.moments': 'វិចិត្រសាល',
+  'nav.spotlight': 'ព័ត៌មាន',
+  'nav.hello': 'ទំនាក់ទំនង',
   'nav.menu': 'ម៉ឺនុយ',
-  'contact.title': 'ទំនាក់ទំនងយើង',
+  'contact.title': 'ទាក់ទងមកយើង',
   'contact.social': 'តាមដានយើង',
   'contact.phone': 'ទូរស័ព្ទមកយើង',
   'contact.email': 'អ៊ីមែល',
-  'contact.messenger': 'ផ្ញើសារមកយើងតាម Messenger',
+  'contact.messenger': 'ផ្ញើសារតាម Messenger',
+  'social.fb': 'កូនតោលើ Facebook',
+  'social.ig': 'កូនតោលើ Instagram',
+  'social.tt': 'កូនតោលើ TikTok',
+  'social.ms': 'ផ្ញើសារមកកូនតោតាម Messenger',
 
-  'hero.eyebrow': 'នំឆ្ងាញ់តូចៗ សម្រាប់រាល់ថ្ងៃ',
-  'hero.title': 'ខាំមួយមាត់<br>ពោរពេញ<span class="happy">ក្តីសុខ<svg viewBox="0 0 360 35" aria-hidden="true"><path d="M5 15 Q170 45 350 8"/></svg></span><span class="period">។</span>',
-  'hero.desc': 'នំខេកទន់ៗ ស្នូលក្រែមឆ្ងាញ់។<br>៥ រសជាតិ ដែលអ្នកនឹងលង់ស្នេហ៍។',
-  'hero.cta': 'ស្វែងរករសជាតិរបស់អ្នក',
-  'hero.note': 'ក្តីរីករាយ<br>ពេញហោប៉ៅ',
-  'hero.stamp1': 'នំតូច',
-  'hero.stamp2': 'ញញឹមធំ',
+  'hero.eyebrow': 'នំតូចឆ្ងាញ់ សម្រាប់រាល់ថ្ងៃ',
+  'hero.title': 'មួយម៉ាត់តូច<br><span class="happy">ក្ដីសុខធំ<svg viewBox="0 0 360 35" aria-hidden="true"><path d="M5 15 Q170 45 350 8"/></svg></span><span class="period">។</span>',
+  'hero.desc': 'នំខេកទន់ល្មើយ ស្នូលក្រែមឈ្ងុយឆ្ងាញ់។<br>មាន ៥ រសជាតិ ឱ្យអ្នកជ្រើសរើស។',
+  'hero.cta': 'រើសរសជាតិដែលអ្នកចូលចិត្ត',
+  'hero.note': 'ក្ដីសុខតូចៗ<br>ក្នុងហោប៉ៅ',
+  'hero.stamp1': 'នំតូចៗ',
+  'hero.stamp2': 'ញញឹមពេញមុខ',
   'hero.spin': 'បង្វិលមើល',
   'hero.prev': 'រសជាតិមុន',
   'hero.next': 'រសជាតិបន្ទាប់',
-  'hero.pickKicker': '៥ រសជាតិ ៥ ក្តីសុខ',
-  'hero.pick': 'ជ្រើសរើសក្តីសុខរបស់អ្នក។',
-  'hero.footnote': 'អារម្មណ៍ល្អ<br>ខ្ចប់យ៉ាងស្រស់ស្អាត។',
+  'hero.pickKicker': '៥ រសជាតិ ៥ ក្ដីសុខ',
+  'hero.pick': 'ចូលចិត្តរសជាតិមួយណា?',
+  'hero.footnote': 'អារម្មណ៍ល្អ<br>ក្នុងកញ្ចប់ស្រស់ស្អាត។',
 
-  'flavors.kicker': 'ស្គាល់រសជាតិដែលអ្នកនឹងចូលចិត្ត',
-  'flavors.title': '៥ រសជាតិ។<br>សប្បាយគ្រប់បែប។',
-  'flavors.desc': 'ចង់ញ៉ាំរសផ្លែឈើ? ឬចង់បានសូកូឡា?<br>មានកូនតោ សម្រាប់គ្រប់អារម្មណ៍របស់អ្នក។',
-  'flavors.photoLabel': 'ក្តីសុខប្រចាំថ្ងៃរបស់អ្នក',
+  'flavors.kicker': 'ស្គាល់រសជាតិសំណព្វថ្មីរបស់អ្នក',
+  'flavors.title': '៥ រសជាតិ<br>ឆ្ងាញ់គ្រប់បែប។',
+  'flavors.desc': 'ចង់ញ៉ាំរសផ្លែឈើ? ឬចង់ញ៉ាំសូកូឡា?<br>កូនតោមានរសជាតិត្រូវចិត្តអ្នកគ្រប់ពេល។',
+  'flavors.photoLabel': 'ក្ដីសុខប្រចាំថ្ងៃរបស់អ្នក',
   'flavors.weight': '៣០ ក្រាម ក្នុងមួយកញ្ចប់',
-  'flavors.find': 'សួររកកន្លែងលក់',
+  'flavors.find': 'សួរកន្លែងទិញ',
 
   'inside.badge': 'សាកខាំ<br>មួយមាត់!',
   'inside.kicker': 'អាថ៌កំបាំងនៅខាងក្នុង',
-  'inside.title': 'ខាងក្រៅទន់។<br>ខាងក្នុងពោរពេញក្តីសុខ។',
-  'inside.p1': 'មួយមាត់ដំបូងដ៏ទន់។ ស្នូលក្រែមដ៏ឆ្ងាញ់។ ពេលវេលាតូចមួយ ដែលធ្វើឲ្យថ្ងៃរបស់អ្នកផ្អែមល្ហែមជាងមុន។',
-  'inside.p2': 'បើកកញ្ចប់កូនតោមួយ ហើយទុកកន្លែងបន្តិចសម្រាប់ក្តីសុខ។',
-  'inside.link': 'ស្វែងរករសជាតិដែលអ្នកចូលចិត្ត',
+  'inside.title': 'ខាងក្រៅទន់ៗ<br>ខាងក្នុងពោរពេញក្ដីសុខ។',
+  'inside.p1': 'ខាំមាត់ដំបូងទន់ៗ ជួបក្រែមឆ្ងាញ់នៅខាងក្នុង។ មួយភ្លែតតូចៗនេះ ធ្វើឲ្យថ្ងៃរបស់អ្នកកាន់តែផ្អែមល្ហែម។',
+  'inside.p2': 'បើកកញ្ចប់កូនតោ ហើយរីករាយជាមួយភាពឆ្ងាញ់។',
+  'inside.link': 'រកមើលរសជាតិដែលអ្នកចូលចិត្ត',
 
-  'moments.kicker': 'មិត្តល្អ។ នំឆ្ងាញ់។',
-  'moments.title': 'ញ៉ាំជាមួយគ្នា<br>សប្បាយជាងមុន។',
-  'moments.desc': 'យកមកច្រើន ចែកគ្នាញ៉ាំ។<br>ធ្វើឲ្យថ្ងៃធម្មតា ផ្អែមល្ហែមជាងមុន។',
-  'moments.c1k': '01 / ពេលសម្រាកផ្អែមល្ហែម',
+  'moments.kicker': 'មិត្តល្អ នំឆ្ងាញ់',
+  'moments.title': 'ញ៉ាំជុំគ្នា<br>កាន់តែសប្បាយ។',
+  'moments.desc': 'ទិញច្រើនកញ្ចប់ ចែកគ្នាញ៉ាំ។<br>ធ្វើឲ្យថ្ងៃធម្មតា ក្លាយជាថ្ងៃផ្អែមល្ហែម។',
+  'moments.c1k': '01 / ពេលសម្រាកដ៏ផ្អែមល្ហែម',
   'moments.c1': 'ជួបជុំជជែកលេង។',
-  'moments.c2k': '02 / ជជែករករសជាតិឆ្ងាញ់',
-  'moments.c2': 'មិត្តដដែល។ រសជាតិសំណព្វថ្មី។',
+  'moments.c2k': '02 / ជជែកគ្នាថារសណាឆ្ងាញ់ជាង',
+  'moments.c2': 'មិត្តភក្ដិដដែល រសជាតិសំណព្វថ្មី។',
   'moments.c3k': '03 / ញ៉ាំព្រោះចង់ញ៉ាំ',
-  'moments.c3': 'ម្នាក់មួយ គ្រប់គ្នា។',
+  'moments.c3': 'គ្រប់គ្នាបានម្នាក់មួយ។',
 
-  'spot.kicker': 'វីដេអូពិសេស',
-  'spot.title': 'នំតូចៗ។<br>ព្រឹត្តិការណ៍ធំៗ។',
-  'spot.desc': 'ពីរោងចក្ររបស់យើង ដល់ឆាកជាតិ។ មើលកូនតោ នៅក្នុងព្រឹត្តិការណ៍សំខាន់ៗ។',
+  'spot.kicker': 'ព័ត៌មាន និងព្រឹត្តិការណ៍',
+  'spot.title': 'នំតូចៗ<br>ព្រឹត្តិការណ៍ធំៗ។',
+  'spot.desc': 'ពីរោងចក្ររបស់យើង រហូតដល់ឆាកថ្នាក់ជាតិ។ តាមដានដំណើររបស់កូនតោ ក្នុងព្រឹត្តិការណ៍សំខាន់ៗ។',
   'spot.loading': 'កំពុងផ្ទុកវីដេអូ…',
   'spot.fTag': 'ផ្សាយដោយ EATAME',
-  'spot.fTitle': 'ចូលមើលរោងចក្រ ដែលផលិតនំកូនតោគ្រប់ដុំ។',
-  'spot.fCopy': 'Eatame អ្នកបង្កើតមាតិកាម្ហូបដែលមានស្លាកផ្ទៀងផ្ទាត់ បាននាំអ្នកទស្សនាចូលមើលរោងចក្រទំនើបរបស់ KTH Food នៅកម្ពុជា ហើយទទួលបានការគាំទ្រយ៉ាងច្រើនលើសលប់។',
+  'spot.fTitle': 'ទស្សនារោងចក្រ ដែលផលិតនំកូនតោគ្រប់កញ្ចប់។',
+  'spot.fCopy': 'Eatame អ្នកបង្កើតមាតិកាម្ហូបអាហារ ដែលមានគណនីផ្ទៀងផ្ទាត់ បាននាំទស្សនិកជនចូលទស្សនារោងចក្រទំនើបរបស់ KTH Food នៅកម្ពុជា ហើយទទួលបានការគាំទ្រយ៉ាងលើសលប់។',
   'spot.s1': 'ប្រតិកម្ម',
   'spot.s2': 'ការចែករំលែក',
   'spot.s3': 'មតិយោបល់',
   'spot.note': 'ស្ថិតិ Facebook គិតត្រឹមខែវិច្ឆិកា ឆ្នាំ២០២៦',
-  'spot.watch': 'មើលនៅលើ Facebook',
-  'spot.watchShort': 'មើលនៅលើ Facebook',
-  'spot.more': 'ព្រឹត្តិការណ៍ធំៗ ផ្សេងទៀត',
+  'spot.watch': 'មើលលើ Facebook',
+  'spot.watchShort': 'មើលលើ Facebook',
+  'spot.more': 'ព្រឹត្តិការណ៍ផ្សេងទៀត',
   'spot.prev': 'វីដេអូមុន',
   'spot.next': 'វីដេអូបន្ទាប់',
   'v1.tag': 'ភ្ញៀវកិត្តិយស',
-  'v1.title': 'លោកជំទាវបណ្ឌិត ពេជ ចន្ទមុន្នី ហ៊ុន ម៉ាណែត បានអញ្ជើញមកទស្សនាស្តង់ និងទិញនំកូនតោ។',
-  'v2.tag': 'លើឆាកជាតិ',
-  'v2.title': 'KTH Food ចូលរួមពិធីជួបសំណេះសំណាល និងអាហារពេលល្ងាចសាមគ្គីភាព របស់សហគ្រាសធុនតូច មធ្យម និងសិប្បកម្មកម្ពុជា។',
+  'v1.title': 'លោកជំទាវបណ្ឌិត ពេជ ចន្ទមុន្នី ហ៊ុន ម៉ាណែត បានអញ្ជើញមកទស្សនាស្តង់ និងជាវនំកូនតោ។',
+  'v2.tag': 'លើឆាកថ្នាក់ជាតិ',
+  'v2.title': 'KTH Food បានចូលរួមពិធីជួបសំណេះសំណាល និងពិសាអាហារពេលល្ងាចសាមគ្គីភាព របស់សហគ្រាសធុនតូច មធ្យម និងសិប្បកម្មកម្ពុជា។',
   'v3.tag': 'ផលិតដោយយកចិត្តទុកដាក់',
-  'v3.title': 'ដំណើរការផលិតនំកូនតោ ឆ្លងកាត់ការត្រួតពិនិត្យ និងស្តង់ដារអនាម័យគ្រប់ដំណាក់កាល។',
+  'v3.title': 'ដំណើរការផលិតនំកូនតោ ដែលឆ្លងកាត់ការត្រួតពិនិត្យ និងអនុវត្តស្តង់ដារអនាម័យគ្រប់ដំណាក់កាល។',
   'v4.tag': 'ជួបតារា',
-  'v4.title': 'ជួបតារា ស្រីនា (Sreynea Nea) ដោយចៃដន្យ នៅស្តង់កូនតោ។',
+  'v4.title': 'យើងបានជួបតារា ស្រីនា (Sreynea Nea) ដោយចៃដន្យ នៅស្តង់កូនតោ។',
 
-  'social.kicker': 'រក្សាអារម្មណ៍ល្អជានិច្ច',
-  'social.title': 'បន្ថែមកូនតោ<br>បន្តិច ក្នុង<br>ថ្ងៃរបស់អ្នក។',
-  'social.desc': 'តាមដានយើង ដើម្បីទទួលបានពេលវេលាផ្អែមល្ហែមបន្ថែម។<br>ចង់រកទិញកូនតោនៅជិតអ្នក? សួរយើងតាម Facebook។',
+  'social.kicker': 'បន្តភាពសប្បាយជាមួយយើង',
+  'social.title': 'ថ្ងៃនេះ<br>ញ៉ាំកូនតោ<br>ហើយឬនៅ?',
+  'social.desc': 'តាមដានយើង ដើម្បីកុំឲ្យរំលងគ្រាផ្អែមល្ហែមថ្មីៗ។<br>ចង់ដឹងថាមានលក់នៅជិតអ្នកទេ? សួរយើងតាម Facebook បាន។',
 
-  'footer.tag': 'នំតូច។<br>សុខចិត្តធំ។',
-  'footer.top': 'ត្រឡប់ទៅលើ',
-  'footer.line': 'ខាំមួយមាត់ ពោរពេញក្តីសុខ។'
+  'footer.tag': 'នំតូច<br>ក្ដីសុខធំ។',
+  'footer.follow': 'តាមដានយើង',
+  'footer.top': 'ត្រឡប់ទៅខាងលើ',
+  'footer.line': 'មួយម៉ាត់តូច ក្ដីសុខធំ។'
 };
 
 const UI = {
   en: {ticker: ['SOFT CAKE', 'CREAMY FILLING', 'LITTLE BITES, BIG HAPPY', 'FIVE FLAVORS'], show: n => 'Show ' + n + ' flavor', fact: n => n + ' flavor', packAlt: n => n + ' KONTAO 30g pack', campaignAlt: n => n + ' KONTAO cake campaign'},
-  km: {ticker: ['នំខេកទន់ៗ', 'ស្នូលក្រែមឆ្ងាញ់', 'នំតូច សុខចិត្តធំ', '៥ រសជាតិ'], show: n => 'បង្ហាញរសជាតិ' + n, fact: n => 'រសជាតិ' + n, packAlt: n => 'នំកូនតោ រសជាតិ' + n + ' ៣០ក្រាម', campaignAlt: n => 'នំកូនតោ រសជាតិ' + n}
+  km: {ticker: ['នំខេកទន់ៗ', 'ញាត់ក្រែមឆ្ងាញ់', 'នំតូច ក្ដីសុខធំ', '៥ រសជាតិ'], show: n => 'បង្ហាញរសជាតិ' + n, fact: n => 'រសជាតិ' + n, packAlt: n => 'នំកូនតោ រសជាតិ' + n + ' ៣០ក្រាម', campaignAlt: n => 'នំកូនតោ រសជាតិ' + n}
 };
 
 let lang = document.documentElement.lang === 'km' ? 'km' : 'en';
@@ -125,29 +130,6 @@ function setLanguage(next, save = true) {
 
 document.querySelectorAll('.lang-toggle button').forEach(b => b.addEventListener('click', () => setLanguage(b.dataset.lang)));
 
-// First-visit language gate
-const gate = document.querySelector('#lang-gate');
-function closeGate(choice) {
-  setLanguage(choice);
-  document.documentElement.classList.add('lang-chosen');
-  gate.classList.add('closing');
-  setTimeout(() => gate.remove(), 450);
-  document.querySelector(`.lang-toggle button[data-lang="${choice}"]`)?.focus({preventScroll: true});
-}
-if (document.documentElement.classList.contains('lang-chosen')) {
-  gate.remove();
-} else {
-  gate.querySelectorAll('.gate-btn').forEach(b => b.addEventListener('click', () => closeGate(b.dataset.lang)));
-  gate.addEventListener('keydown', e => {
-    if (e.key !== 'Tab') return; // keep focus inside the dialog
-    const btns = [...gate.querySelectorAll('.gate-btn')];
-    const i = btns.indexOf(document.activeElement);
-    e.preventDefault();
-    btns[(i + (e.shiftKey ? btns.length - 1 : 1)) % btns.length].focus();
-  });
-  requestAnimationFrame(() => gate.querySelector('.gate-btn').focus({preventScroll: true}));
-}
-
 // Toggle floats in the top-right corner once the header scrolls away
 const toggle = document.querySelector('.lang-toggle');
 if ('IntersectionObserver' in window) {
@@ -156,11 +138,11 @@ if ('IntersectionObserver' in window) {
 
 /* ---------- 2. Hero flavor carousel ---------- */
 const flavors = [
-  {name: 'Strawberry', km: 'ស្ត្របឺរី', file: 'strawberry', word: 'BERRY', line: 'Your sweet little pick-me-up.', kmLine: 'ផ្អែមល្ហែម ធ្វើឲ្យស្រស់ស្រាយភ្លាម។', bg: '#f6bed0', ink: '#67152d', accent: '#bc234e'},
+  {name: 'Strawberry', km: 'ស្ត្របឺរី', file: 'strawberry', word: 'BERRY', line: 'Your sweet little pick-me-up.', kmLine: 'ផ្អែមៗ ធ្វើឲ្យស្រស់ស្រាយភ្លាមៗ។', bg: '#f6bed0', ink: '#67152d', accent: '#bc234e'},
   {name: 'Chocolate', km: 'សូកូឡា', file: 'chocolate', word: 'CHOCO', line: 'A little chocolate. A lot of happy.', kmLine: 'សូកូឡាបន្តិច សប្បាយចិត្តច្រើន។', bg: '#e6b48f', ink: '#482417', accent: '#7d4329'},
-  {name: 'Durian', km: 'ធុរេន', file: 'durian', word: 'DURIAN', line: 'A bold little moment.', kmLine: 'រសជាតិដិតដាម សម្រាប់ថ្ងៃពិសេស។', bg: '#efdc78', ink: '#354720', accent: '#738340'},
-  {name: 'Original', km: 'ដើម', file: 'original', word: 'CLASSIC', line: 'Simple, soft, and oh-so-lovely.', kmLine: 'សាមញ្ញ ទន់ និងគួរឲ្យស្រឡាញ់។', bg: '#f8d598', ink: '#78370f', accent: '#bb641a'},
-  {name: 'Pandan', km: 'ស្លឹកតើយ', file: 'pandan', word: 'PANDAN', line: 'A fresh twist on your happy place.', kmLine: 'ក្លិនស្លឹកតើយស្រស់ សម្រាប់ចិត្តរីករាយ។', bg: '#c9df9b', ink: '#294a23', accent: '#578234'}
+  {name: 'Durian', km: 'ទុរេន', file: 'durian', word: 'DURIAN', line: 'A bold little moment.', kmLine: 'រសជាតិដិតដាម សម្រាប់ថ្ងៃពិសេស។', bg: '#efdc78', ink: '#354720', accent: '#738340'},
+  {name: 'Original', km: 'ដើម', file: 'original', word: 'CLASSIC', line: 'Simple, soft, and oh-so-lovely.', kmLine: 'សាមញ្ញ ទន់ៗ ហើយឆ្ងាញ់មិនធម្មតា។', bg: '#f8d598', ink: '#78370f', accent: '#bb641a'},
+  {name: 'Pandan', km: 'ស្លឹកតើយ', file: 'pandan', word: 'PANDAN', line: 'A fresh twist on your happy place.', kmLine: 'ក្លិនស្លឹកតើយក្រអូប ស្រស់ស្រាយដល់ចិត្ត។', bg: '#c9df9b', ink: '#294a23', accent: '#578234'}
 ];
 const fname = f => lang === 'km' ? f.km : f.name;
 
@@ -254,15 +236,15 @@ reduce.addEventListener('change', e => { paused = e.matches; updateMotion(); });
 /* ---------- 3. Flavor detail tabs ---------- */
 const stories = [
   {title: 'Berry sweet.<br>Very you.', label: 'THE FRUITY ONE', copy: 'A soft little cake with a sweet strawberry-flavored center. For the pink-loving, joy-chasing side of you.',
-   kmTitle: 'ផ្អែមល្ហែម។<br>ដូចអ្នកពិតៗ។', kmLabel: 'រសផ្លែឈើ', kmCopy: 'នំខេកទន់ៗ ជាមួយស្នូលរសជាតិស្ត្របឺរីផ្អែមឆ្ងាញ់។ សម្រាប់អ្នកដែលស្រឡាញ់ពណ៌ផ្កាឈូក និងចូលចិត្តភាពរីករាយ។'},
+   kmTitle: 'ផ្អែមល្ហែម<br>ដូចអ្នកអ៊ីចឹង។', kmLabel: 'រសផ្លែឈើ', kmCopy: 'នំខេកទន់ៗ ញាត់ក្រែមរសស្ត្របឺរីផ្អែមឆ្ងាញ់។ សម្រាប់អ្នកដែលចូលចិត្តពណ៌ផ្កាឈូក និងរស់នៅដោយក្ដីរីករាយ។'},
   {title: 'For your<br>chocolate mood.', label: 'THE CHOCOLATE ONE', copy: 'Soft cake meets a creamy chocolate-flavored center. A little indulgence to make your everyday break sweeter.',
-   kmTitle: 'សម្រាប់ពេល<br>ចង់ញ៉ាំសូកូឡា។', kmLabel: 'រសសូកូឡា', kmCopy: 'នំខេកទន់ៗ ជាមួយស្នូលក្រែមរសជាតិសូកូឡា។ រង្វាន់តូចមួយ ដែលធ្វើឲ្យពេលសម្រាករបស់អ្នកផ្អែមល្ហែមជាងមុន។'},
+   kmTitle: 'សម្រាប់ពេល<br>ចង់ញ៉ាំសូកូឡា។', kmLabel: 'រសសូកូឡា', kmCopy: 'នំខេកទន់ៗ ញាត់ក្រែមរសសូកូឡា។ រង្វាន់តូចមួយសម្រាប់ខ្លួនឯង ដែលធ្វើឲ្យពេលសម្រាកប្រចាំថ្ងៃកាន់តែផ្អែមល្ហែម។'},
   {title: 'A little bold.<br>A lot to love.', label: 'THE BOLD ONE', copy: 'Make room for durian. A creamy durian-flavored filling wrapped in soft cake, for the days you want something a little different.',
-   kmTitle: 'ដិតដាមបន្តិច។<br>គួរឲ្យស្រឡាញ់ច្រើន។', kmLabel: 'រសដិតដាម', kmCopy: 'ទុកកន្លែងសម្រាប់ធុរេន។ ស្នូលក្រែមរសជាតិធុរេន រុំដោយនំខេកទន់ៗ សម្រាប់ថ្ងៃដែលអ្នកចង់សាកអ្វីប្លែកបន្តិច។'},
+   kmTitle: 'រសជាតិទុរេនដិតដល់<br>ឆ្ងាញ់ជាប់ចិត្ត។', kmLabel: 'រសទុរេន', kmCopy: 'អ្នកចូលចិត្តទុរេន ត្រូវតែសាក! ក្រែមរសទុរេន រុំដោយនំខេកទន់ៗ សម្រាប់ថ្ងៃដែលអ្នកចង់ញ៉ាំអ្វីប្លែកពីមុន។'},
   {title: 'Simply soft.<br>Simply happy.', label: 'THE CLASSIC ONE', copy: 'Meet your easygoing favorite. Soft cake and a creamy center, ready for your next little break.',
-   kmTitle: 'ទន់ៗ សាមញ្ញ។<br>សប្បាយចិត្តពិតៗ។', kmLabel: 'រសដើម', kmCopy: 'ជួបរសជាតិដែលអ្នកណាក៏ចូលចិត្ត។ នំខេកទន់ៗ និងស្នូលក្រែមឆ្ងាញ់ រួចរាល់សម្រាប់ពេលសម្រាកបន្ទាប់របស់អ្នក។'},
+   kmTitle: 'សាមញ្ញ ទន់ៗ<br>សប្បាយចិត្ត។', kmLabel: 'រសដើម', kmCopy: 'រសជាតិដែលអ្នកណាក៏ចូលចិត្ត។ នំខេកទន់ៗ ញាត់ក្រែមឆ្ងាញ់ ល្អបំផុតសម្រាប់ពេលសម្រាករបស់អ្នក។'},
   {title: 'Your green<br>little getaway.', label: 'THE PANDAN ONE', copy: 'A soft cake with a creamy pandan-flavored center. A sweet little change of pace for your everyday snack break.',
-   kmTitle: 'ពណ៌បៃតង<br>សម្រាប់សម្រាកចិត្ត។', kmLabel: 'រសស្លឹកតើយ', kmCopy: 'នំខេកទន់ៗ ជាមួយស្នូលក្រែមរសជាតិស្លឹកតើយ។ ការផ្លាស់ប្តូរផ្អែមល្ហែមបន្តិច សម្រាប់ពេលញ៉ាំអាហារសម្រន់ប្រចាំថ្ងៃ។'}
+   kmTitle: 'បៃតងស្រស់<br>ធូរស្រាលចិត្ត។', kmLabel: 'រសស្លឹកតើយ', kmCopy: 'នំខេកទន់ៗ ញាត់ក្រែមរសស្លឹកតើយក្រអូប។ ជម្រើសថ្មីដ៏ផ្អែមល្ហែម សម្រាប់ពេលញ៉ាំលេងប្រចាំថ្ងៃ។'}
 ];
 const detailTabs = document.querySelector('#detail-tabs');
 let detailIndex = 0;
