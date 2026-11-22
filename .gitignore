@@ -1,0 +1,11 @@
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Dependencies (if a build step or form backend is added later)
+node_modules/
